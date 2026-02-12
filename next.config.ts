@@ -1,11 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // Matikan pengecekan tipe data saat build agar cepat
+  // Abaikan error tipe data saat build (biar tidak rewel)
   typescript: {
     ignoreBuildErrors: true,
   },
-  // Izinkan gambar dari luar
+  // Izinkan gambar dari Unsplash & TransparentTextures
   images: {
     remotePatterns: [
       {
