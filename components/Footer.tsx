@@ -69,7 +69,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-slate-800 pt-8 text-center md:text-left flex flex-col md:flex-row justify-between items-center text-xs text-slate-500">
-          <p>&copy; 2026 PT Sparta Duta Perkasa. All rights reserved. Develope by Askara Indonesia</p>
+          <p>&copy; 2026 PT Sparta Duta Perkasa. All rights reserved. Developed by Askara Indonesia</p>
           <p className="mt-2 md:mt-0">Export–Import • Palm Derivatives • Traceable Supply</p>
         </div>
       </div>
